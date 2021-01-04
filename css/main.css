@@ -17,8 +17,8 @@
  *  10. home
  *  11. about
  *  12. pricing
- *  13. testimonials
- *  14. download
+ *  13. media
+ *  14. contact
  *  15. footer styles
  *
  * =================================================================== */
@@ -2266,25 +2266,25 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 
 /* ===================================================================
- *  13. testimonials - (_layout.scss)
+ *  13. media - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 
-#testimonials {
+#media {
   background: #FFFFFF;
   padding: 15rem 0 9rem;
   text-align: center;
   min-height: 600px;
 }
 
-#testimonials h1::before {
+#media h1::before {
   left: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
-#testimonials .owl-wrap {
+#media .owl-wrap {
   width: 80%;
   max-width: 900px;
   margin: 4.2rem auto 0;
@@ -2432,7 +2432,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 /* -------------------------------------------------------------------
  * responsive:
- * testimonials
+ * media
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1024px) {
@@ -2458,7 +2458,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 @media only screen and (max-width: 600px) {
-  #testimonials .owl-wrap {
+  #media .owl-wrap {
     width: 90%;
   }
   #testimonial-slider p {
@@ -2467,7 +2467,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 }
 
 @media only screen and (max-width: 400px) {
-  #testimonials .owl-wrap {
+  #media .owl-wrap {
     width: 100%;
   }
   #testimonial-slider p {
@@ -2477,11 +2477,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 
 /* ===================================================================
- *  14. download - (_layout.scss)
+ *  14. contact - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
 
-#download {
+#contact {
   background: #39b54a;
   color: #b2fabc;
   padding-top: 12rem;
@@ -2489,11 +2489,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   text-align: center;
 }
 
-#download h1 {
+#contact h1 {
   color: #ffffff;
 }
 
-#download h1::before {
+#contact h1::before {
   background-color: #2a9038;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -2501,28 +2501,28 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   transform: translateX(-50%);
 }
 
-#download .lead {
+#contact .lead {
   color: #b2fabc;
   margin-top: 4.8rem;
 }
 
-#download .row {
+#contact .row {
   max-width: 800px;
 }
 
-#download .download-badges {
+#contact .download-badges {
   list-style: none;
   margin: 0;
   text-align: center;
 }
 
-#download .download-badges li {
+#contact .download-badges li {
   display: inline-block;
   margin: 0 7.5px;
   padding-left: 0;
 }
 
-#download .download-badges li a {
+#contact .download-badges li a {
   display: block;
   width: 230px;
   height: 71px;
@@ -2534,22 +2534,22 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   background-size: 230px 71px;
 }
 
-#download .download-badges li a.badge-appstore {
+#contact .download-badges li a.badge-appstore {
   background-image: url("../images/appstore.png");
 }
 
-#download .download-badges li a.badge-googleplay {
+#contact .download-badges li a.badge-googleplay {
   background-image: url("../images/google-play.png");
 }
 
 
 /* -------------------------------------------------------------------
  * responsive:
- * download
+ * contact
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 768px) {
-  #download .download-badges li a {
+  #contact .download-badges li a {
     width: 194px;
     height: 60px;
     background-size: 194px 60px;
