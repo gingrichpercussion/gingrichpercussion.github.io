@@ -2568,7 +2568,8 @@ footer {
   padding-bottom: 4.2rem;
   font-size: 1.5rem;
   line-height: 2.7rem;
-  color: black;
+  color: rgba(255, 255, 255, 0.25);
+  backgroud: black;
 }
 
 footer a {
