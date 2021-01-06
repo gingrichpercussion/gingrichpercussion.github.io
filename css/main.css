@@ -1719,7 +1719,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 @media only screen and (max-width: 1024px) {
   .home-content-left {
     width: 60%;
-    padding: 18rem 6rem 12rem 4rem;
+    padding: 18rem 11rem 12rem 4rem; /* 18rem 6rem 12rem 4rem */
   }
   .home-content-left h3 {
     font-size: 1.5rem;
@@ -1750,7 +1750,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   .home-content-left {
     width: 94%;
     position: static;
-    padding: 15rem 6rem 366px;
+    padding: 40rem 6rem 275px; /* 15rem 6rem 366px */
     margin: 0 auto;
   }
   .home-content-left h1 {
@@ -1784,7 +1784,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 600px) {
   .home-content-left {
-    padding: 12rem 6rem 366px;
+    padding: 34rem 6rem 100px; /* 12rem 6rem 366px */
   }
   .home-content-left h1 {
     font-size: 3.3rem;
@@ -1809,7 +1809,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     display: none;
   }
   .home-content-left {
-    padding: 12rem 2.5rem 366px;
+    padding: 34rem 2.5rem 100px; /*  12rem 2.5rem 366px */
     width: 100%;
   }
   .home-content-left h1 {
@@ -1819,7 +1819,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 @media only screen and (max-width: 400px) {
   .home-content-left {
-    padding: 12rem 0 300px;
+    padding: 32rem 0 100px; /* 12rem 0 300px */
   }
   .home-content-left .button.stroke {
     margin: 0 0 1.2rem 0;
