@@ -2568,7 +2568,7 @@ footer {
   padding-bottom: 4.2rem;
   font-size: 1.5rem;
   line-height: 2.7rem;
-  color: rgba(255, 255, 255, 0.25);
+  color: black;
 }
 
 footer a {
@@ -2630,7 +2630,7 @@ footer ul a:visited {
   border: none;
   width: 93px;
   height: 21px;
-  background: black no-repeat center;
+  background: no-repeat center;
   background-size: 93px 21px;
   font: 0/0 a;
   text-shadow: none;
